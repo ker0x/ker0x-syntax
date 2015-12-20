@@ -1,0 +1,15 @@
+{
+  "name": "ker0x-syntax",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "description": "Custom syntax based on Base16 Tomorrow Dark",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/ker0x/ker0x-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
