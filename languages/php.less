@@ -1,0 +1,35 @@
+@import "../styles/syntax-variables.less";
+
+.punctuation {
+
+    &.embedded.php {
+        color: @orange;
+    }
+
+    &.variable.php {
+        color: @red;
+    }
+}
+
+.meta {
+
+    &.function-call.php {
+        color: @blue;
+    }
+}
+
+.entity {
+
+    &.class.php,
+    &.namespace.php,
+    &.interface.php {
+        text-decoration: none;
+    }
+}
+
+.constant {
+
+    &.other.php {
+        color: @cyan;
+    }
+}
