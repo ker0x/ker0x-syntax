@@ -1,1 +1,29 @@
 @import "../styles/syntax-variables.less";
+
+.entity {
+
+    &.tag.html {
+        text-decoration: none;
+    }
+
+    &.attribute-name {
+
+        &.html {
+            color: @light-orange;
+        }
+
+        &.id.html {
+            color: @blue;
+        }
+
+    }
+    
+}
+
+.string.quoted.double.html {
+    color: @cyan;
+}
+
+.meta.doctype.html {
+    color: @orange;
+}

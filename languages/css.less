@@ -1,1 +1,51 @@
 @import "../styles/syntax-variables.less";
+
+.entity {
+
+    &.tag.css {
+        text-decoration: none;
+        color: @purple;
+    }
+
+    &.id.css {
+        color: darken(@blue, 10%);;
+    }
+
+    &.class.css {
+        color: @light-orange;
+    }
+
+    &.pseudo-element.css {
+        color: @red;
+    }
+
+    &.attribute.css {
+        color: @orange;
+    }
+}
+
+.support {
+
+    &.function.css {
+        color: @blue;
+    }
+
+    &.property-name.css {
+        color: @very-light-gray;
+    }
+}
+
+.punctuation {
+
+    &.definition.entity.css,
+    &.separator.operator.css {
+        color: @very-light-gray;
+    }
+}
+
+.meta {
+
+    &.selector.css {
+        color: @very-light-gray;
+    }
+}
