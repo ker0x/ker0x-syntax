@@ -34,5 +34,3 @@ interface Another {
 
 include (dirname(__FILE__) . "inc.php");
 `rm -r`;
-
-goto Label;

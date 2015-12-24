@@ -1,4 +1,4 @@
-# ker0x Syntax Theme
+# ker0x Syntax Theme for Atom
 
 My custom syntax for Atom. Based on Base16 Tomorrow Dark.
 
