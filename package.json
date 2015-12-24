@@ -1,7 +1,7 @@
 {
   "name": "ker0x-syntax",
   "theme": "syntax",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Custom syntax based on Base16 Tomorrow Dark",
   "keywords": [
     "syntax",
