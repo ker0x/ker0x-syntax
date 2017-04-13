@@ -1,51 +1,51 @@
 @import "../styles/syntax-variables.less";
 
-.entity {
+.syntax--entity {
 
-    &.tag.css {
+    &.syntax--tag.syntax--css {
         text-decoration: none;
         color: @purple;
     }
 
-    &.id.css {
+    &.syntax--id.syntax--css {
         color: darken(@blue, 10%);;
     }
 
-    &.class.css {
+    &.syntax--class.syntax--css {
         color: @light-orange;
     }
 
-    &.pseudo-element.css {
+    &.syntax--pseudo-element.syntax--css {
         color: @red;
     }
 
-    &.attribute.css {
+    &.syntax--attribute.syntax--css {
         color: @orange;
     }
 }
 
-.support {
+.syntax--support {
 
-    &.function.css {
+    &.syntax--function.syntax--css {
         color: @blue;
     }
 
-    &.property-name.css {
+    &.syntax--property-name.syntax--css {
         color: @very-light-gray;
     }
 }
 
-.punctuation {
+.syntax--punctuation {
 
-    &.definition.entity.css,
-    &.separator.operator.css {
+    &.syntax--definition.syntax--entity.syntax--css,
+    &.syntax--separator.syntax--operator.syntax--css {
         color: @very-light-gray;
     }
 }
 
-.meta {
+.syntax--meta {
 
-    &.selector.css {
+    &.syntax--selector.syntax--css {
         color: @very-light-gray;
     }
 }

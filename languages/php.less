@@ -1,31 +1,31 @@
 @import "../styles/syntax-variables.less";
 
-.punctuation {
+.syntax--punctuation {
 
-    &.embedded.php {
+    &.syntax--embedded.syntax--php {
         color: @orange;
     }
 
-    &.variable.php {
+    &.syntax--variable.syntax--php {
         color: @red;
     }
 
 }
 
-.meta.function-call.php {
+.syntax--meta.syntax--function-call.syntax--php {
     color: @blue;
 }
 
-.entity {
+.syntax--entity {
 
-    &.class.php,
-    &.namespace.php,
-    &.interface.php {
+    &.syntax--class.syntax--php,
+    &.syntax--amespace.syntax--php,
+    &.syntax--interface.syntax--php {
         text-decoration: none;
     }
 
 }
 
-.constant.other.php {
+.syntax--constant.syntax--other.syntax--php {
     color: @cyan;
 }
